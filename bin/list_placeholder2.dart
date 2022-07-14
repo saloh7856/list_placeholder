@@ -6,4 +6,12 @@ Return the List
 
 */
 
-void main() {}
+List func(int a){
+    List y=List.filled(a,5);
+    return y; 
+}
+
+void main(){   
+print(func(4));
+
+}
