@@ -5,7 +5,6 @@ Return the List
 
 */
 List func(List a){
-    
     return a; 
 }
 
