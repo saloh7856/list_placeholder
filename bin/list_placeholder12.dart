@@ -5,5 +5,14 @@ Argument int n
 Return the List
 
 */
-
-void main() {}
+List func(int n){
+    List l=[];
+    while (0<n){
+        n-=1;
+        l.add((n+1)*(n+1));
+    }
+    return l;
+}
+void main(){
+    print(func(4));
+}
