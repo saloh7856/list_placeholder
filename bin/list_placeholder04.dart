@@ -9,7 +9,7 @@ Return the List
 List func(int n){
     List x = [];
     int i=-1;
-    while (i < n) {
+    while (i+1 < n) {
         i+=1;
         x.add(i);
     }
