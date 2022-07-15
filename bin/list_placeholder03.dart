@@ -8,7 +8,7 @@ Return the List
 
 List func(int n){
     
-    List y=List.filled(n,0);
+    List y=List.filled(n,1);
     return y; 
 }
 
