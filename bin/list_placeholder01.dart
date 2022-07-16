@@ -10,6 +10,6 @@ List func(){
 }
 
 void main(){   
-print();
+print(func());
 
 }
