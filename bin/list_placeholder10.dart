@@ -6,21 +6,22 @@ Return the List
 
 */
 
-List func(int n){
-    List x = [];
-    int k=0;
-    while (k < n){
-        
-        if(k%2==0){
-        k.toString();
-        }
-    x.add(k);
-        k+=1;
+
+List func(n) {
+  List l = [];
+  int x = 0;
+  while (x < n) {
+    if (x % 2 == 0) {
+      l.add(x.toString());
+    } else {
+      l.add(x);
     }
-    return x; 
+    x += 1;
+  }
+ // print(l[2].runtimeType);
+  return l;
 }
 
-void main(){   
-print(func(6));
-
+void main() {
+  print(func(15));
 }
